@@ -83,14 +83,14 @@ function drawLabel() {
 
 
   }
-  if (u == 1) {
-    textAlign(CENTER, BOTTOM);
-    ts1 = ts / 2;
-    textSize(ts1);
-    noStroke()
-    text("(Click or tap to advance sketch.)", width / 2, height - ts);
+//   if (u == 1) {
+//     textAlign(CENTER, BOTTOM);
+//     ts1 = ts / 2;
+//     textSize(ts1);
+//     noStroke()
+//     text("(Click or tap to advance sketch.)", width / 2, height - ts);
 
-  }
+//   }
 
   // reset u
   if (u > 3) {
